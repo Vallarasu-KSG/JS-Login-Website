@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://static.vecteezy.com/system/resources/previews/014/468/621/non_2x/abstract-digital-technology-background-with-concept-security-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.h2
+{
+    position: absolute;
+    background-color: aqua;
+    padding: 25px 87px;
+    font-size: 15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    top: 0px;
+}
+.Login2
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.01px solid rgb(41, 40, 40);
+    width: 450px;
+    height: 500px;
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-top: 90px;
+    background-color: transparent;
+    backdrop-filter:blur(20px);
+}
+.email
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.email label
+{
+    font-size: 25px;
+    margin-bottom: 10px
+}
+.email input
+{
+    display: flex;
+    font-weight: bold;
+    width: 350px;
+    font-size: 20px;
+    padding: 5px 0px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    text-align:justify;
+}
+.password
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.password label
+{
+    font-size: 25px;
+    margin-bottom: 10px
+}
+.password input
+{
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 350px;
+    padding: 5px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.Forget
+{
+    font-size: 15px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+    color: rgb(153, 149, 149);
+}
+.Forget input
+{
+    background-color: rgb(153, 149, 149);
+    color: rgb(153, 149, 149);
+}
+.Forget a
+{
+    color: rgb(153, 149, 149);
+    text-decoration: none;
+}
+.Forget a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+.Login-btn button
+{
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
